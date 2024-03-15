@@ -1,0 +1,18 @@
+//local vs global variable initialization differences
+class VariableInitialization {
+    int b;
+       boolean bl;
+    private static int c;
+    public void testB(){
+        //int d;
+     
+        System.out.println("This is b:"+b);
+        System.out.println("This is d:"+bl);
+    }
+    public static void main(String[] args) {
+        int a;
+        System.out.println("Try programiz.pro"+c);
+        VariableInitialization helloWorld=new VariableInitialization();
+        helloWorld.testB();
+    }
+}
